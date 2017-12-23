@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/background.jpg);
+}
+#header {
+	background-color: #c97126;
+	width: 400px;
+	font-size: 300%;
+	margin:10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: white;
+}
+
+#rules {
+	background-color: #FBE6CD;
+	color: #82B182;
+	margin: 10px;
+	padding-top :20px;
+	padding-left: 10px;
+	width: 60%;
+	padding-bottom: 50px;
+}
+
+#conclude {
+	margin: 10px;
+}
+#randomNumber {
+	height: 150px;
+	width: 500px;
+	background-color: #5BC880;
+	font-size: 40px;
+	float: left;
+	padding-top: 40px;
+}
+#result {
+	height: 150px;
+	width: 100px;
+	background-color: #4BFDFC;
+	font-size: 30px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#picture {
+	margin: 10px;
+	position: relative;
+}
+
+.size {
+    height: 100px;
+    width: 100px;
+}
+
+#red {
+	float: left;
+}
+#blue {
+	float: left;
+	margin-left:10px;
+}
+#yellow {
+	float: left;
+	margin-left:10px;
+}
+#green {
+	float: left;
+	margin-left:10px;
+}
+
+#showScore {
+    position: absolute;
+    margin: 10px;
+    margin-top: 110px;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 280px;
+    background-color: #3B4D4B;
+    color: white;
+}

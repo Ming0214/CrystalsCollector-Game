@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CrystalsCollector</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+</head>
+<body>
+	<h1 id="header">CrystalsCollector!</h1>
+
+    <div id="rules">
+    	<p>You will be give a random number at the start of the game.</p>
+    	<br>
+    	<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    	<br>
+    	<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+    	<br>
+    	<p>The value of each crystal is hidden from you until you click on it.</p>
+    	<br>
+    	<p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+    
+    <div id="conclude">
+       <div id="randomNumber">
+       	<p style="font-size: 50px;">The number is: <span id="number"></span></p>
+       </div>
+       <div id="result">
+       	<ol>
+       		<li><h5>Wins:<br><span id="win">0</span></h5></li>
+       		<br>
+       		<li><h5>Losses:<br><span id="losse">0</span></h5></li>
+       	</ol>
+       </div>
+    </div>
+
+    <div id="picture">
+	    <ul>
+	    	<li id="red"><img src="assets/images/redCrystal.jpg" class="size"></li>
+	    	<li id="blue"><img src="assets/images/blueCrystal.jpg" class="size"></li>
+	    	<li id="yellow"><img src="assets/images/yellowCrystal.jpg" class="size"></li>
+	    	<li id="green"><img src="assets/images/greenCrystal.jpg" class="size"></li>
+	    </ul>
+    </div>
+
+    <p id="showScore">Your total score is:<span id="score"></span></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
